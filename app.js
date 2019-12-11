@@ -46,9 +46,9 @@ capabilities.set('chromeOptions', {
       .getText(URL);
 
     console.clear();
-    console.log('ヒット数は' + result_stats + '件です');
-    console.log(top_title);
-    console.log(top_uri);
+    console.log('ヒット数は "' + result_stats + '" 件です');
+    console.log('検索最上位のタイトルは "' + top_title + '" です');
+    console.log('検索最上位のURLは "' + top_uri + '" です');
 
   } catch(err) {
     console.log(err);
